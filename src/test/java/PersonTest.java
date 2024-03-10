@@ -3,6 +3,7 @@ import org.example.exercice01.Person;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class PersonTest {
     @Test
@@ -25,6 +26,6 @@ public class PersonTest {
          //Act
             boolean result1 = person1.isAdult();
             // Assert
-            assertEquals(true, result1);
+            assertTrue(result1);
     }
 }
